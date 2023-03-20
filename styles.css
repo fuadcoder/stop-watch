@@ -75,3 +75,26 @@ h1 {
 .buttons button:hover {
     transform:scale(1.2);
 }
+
+@media (max-width: 670px) {
+    h1 {
+        font-size: 45px;
+    }
+    .container {
+        min-width: 300px;
+    }
+    .timerDisplay {
+        width: 110%;
+        font-size: 25px;
+    }
+    .buttons button {
+        padding: 10px 12px;
+    }
+    .buttons button:nth-child(2) {
+        margin: 0 10px;
+    }
+
+    .buttons button:hover {
+        transform:scale(1);
+    }
+}
